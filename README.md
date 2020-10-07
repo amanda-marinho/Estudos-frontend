@@ -2,13 +2,15 @@
 
 Vou reunir aqui códigos gerados a partir de estudos sobre HTML, CSS e JavaScript.
 
-Alguns dos códigos fazem parte dos cursos do bootcamp [HTML Web Developer](https://web.digitalinnovation.one/track/html-web-developer) da Digital Innovation One e dos cursos de [HTML](https://www.codecademy.com/learn/learn-html) e [CSS](https://www.codecademy.com/learn/learn-css) do Codecademy.
+Alguns dos códigos fazem parte dos cursos do bootcamp [HTML Web Developer](https://web.digitalinnovation.one/track/html-web-developer) da **Digital Innovation One** (DIO) e dos cursos de [HTML](https://www.codecademy.com/learn/learn-html) e [CSS](https://www.codecademy.com/learn/learn-css) do **Codecademy**.
 
 
 
-## Intro-html-css
+## 1-Intro-html-css
 
-Diretório das aulas de introdução ao HTML5 e CSS3.
+Códigos do curso **introdução ao HTML5 e CSS3** (DIO):
+[`index.html`](../1-intro-html-css/index.html)
 
-[HTML Web Developer](https://web.digitalinnovation.one/track/html-web-developer)
+Códigos das aulas do **curso de HTML** (Codecademy): [`brownbears.html`](../1-intro-html-css/brownbears.html), [`table.html`](../1-intro-html-css/table.html) e [`style-table.css`](../1-intro-html-css/style-table.css)
+
 

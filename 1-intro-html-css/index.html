@@ -4,36 +4,70 @@
 <head>
 	<meta charset="uft-8">
 	<title>Amanda Marinho</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<header>
+	<header id="title">
 		<img src="perfil.jpeg" alt="Foto de perfil">
-		<h1>Amanda Marinho</h1>
-		<a href="./index.html">About me</a>
-		<a href="./brownbears.html">Brown bears</a>
-		<a href="./table.html">Table</a>
+		<section>
+			<h1>Amanda Marinho</h1>
+			<nav>
+				<a href="./index.html">About me</a>
+				<a href="./brownbears.html">Brown bears</a>
+				<a href="./table.html">Table</a>
+			</nav>
+		</section>
 	</header>
-	<section>
+	<section id="about">
+		<h2 class="subtitle">Sobre mim</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur
+			adipiscing elit. Morbi nec feugiat justo, quis lobortis sem. In ut elit vehicula, commodo lectus quis,
+			rutrum purus. Donec tincidunt orci vel dolor viverra scelerisque. Fusce eu pellentesque enim, a egestas
+			metus. Sed sit amet eros rutrum sem malesuada volutpat sit amet eu massa. Nullam scelerisque ultrices
+			lorem sed accumsan. Maecenas accumsan purus vitae eleifend aliquet. Fusce et enim eu ligula aliquam
+			vulputate eget a lectus. Nunc lacinia fringilla justo non condimentum.
+		</p>
+	</section>
+	<section id="posts">
 		<header>
-			<h2>Posts</h2>
+			<h2 class="subtitle">Posts</h2>
 		</header>
-		<article>
+		<article class="post">
 			<header>
-				<h3>Post #1</h3>
-				<img src="code.jpg" alt="Código HTML">
+				<h3 class="post_title">Post #1</h3>
 			</header>
-			<p>
-				<a href="https://lipsum.com/feed/html" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur
-				adipiscing elit. Morbi nec feugiat justo, quis lobortis sem. In ut elit vehicula, commodo lectus quis,
-				rutrum purus. Donec tincidunt orci vel dolor viverra scelerisque. Fusce eu pellentesque enim, a egestas
-				metus. Sed sit amet eros rutrum sem malesuada volutpat sit amet eu massa. Nullam scelerisque ultrices
-				lorem sed accumsan. Maecenas accumsan purus vitae eleifend aliquet. Fusce et enim eu ligula aliquam
-				vulputate eget a lectus. Nunc lacinia fringilla justo non condimentum.
-			</p>
+			<section>
+				<img src="code.jpg" alt="Código HTML">
+				<p>
+					<a href="https://lipsum.com/feed/html" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur
+					adipiscing elit. Morbi nec feugiat justo, quis lobortis sem. In ut elit vehicula, commodo lectus quis,
+					rutrum purus. Donec tincidunt orci vel dolor viverra scelerisque. Fusce eu pellentesque enim, a egestas
+					metus. Sed sit amet eros rutrum sem malesuada volutpat sit amet eu massa. Nullam scelerisque ultrices
+					lorem sed accumsan. Maecenas accumsan purus vitae eleifend aliquet. Fusce et enim eu ligula aliquam
+					vulputate eget a lectus. Nunc lacinia fringilla justo non condimentum.
+				</p>
+			</section>
+		</article>
+		<article class="post">
+			<header>
+				<h3 class="post_title">Post #2</h3>
+			</header>
+			<section>
+				<img src="code.jpg" alt="Código HTML">
+				<p>
+					<a href="https://lipsum.com/feed/html" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur
+					adipiscing elit. Morbi nec feugiat justo, quis lobortis sem. In ut elit vehicula, commodo lectus quis,
+					rutrum purus. Donec tincidunt orci vel dolor viverra scelerisque. Fusce eu pellentesque enim, a egestas
+					metus. Sed sit amet eros rutrum sem malesuada volutpat sit amet eu massa. Nullam scelerisque ultrices
+					lorem sed accumsan. Maecenas accumsan purus vitae eleifend aliquet. Fusce et enim eu ligula aliquam
+					vulputate eget a lectus. Nunc lacinia fringilla justo non condimentum.
+				</p>
+			</section>
 		</article>
 	</section>
-	<footer>
+	<footer class="contacts">
 		<ul>
 			<li>
 				<a href="mailto:amanda.marinho@usp.br">amanda.marinho@usp.br</a>
