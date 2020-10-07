@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 40rem;
+    height: 35rem;
 }
 
 .instagram-continue {
@@ -46,6 +46,7 @@ body {
 }
 
 .group {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,6 +70,7 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin: 1rem;
 }
 
 .profile-photo img {
@@ -124,4 +126,34 @@ body {
 
 .app-download:nth-child(2) {
     background-image: url('./img/apple.png');
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
 }
