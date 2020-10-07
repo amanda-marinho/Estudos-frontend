@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 35rem;
+    height: 45rem;
 }
 
 .instagram-continue {
@@ -121,11 +121,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple.png');
+    background-image: url('./img/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/apple.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
 /* media queries */
