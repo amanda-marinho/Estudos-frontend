@@ -13,4 +13,8 @@ Códigos do curso **introdução ao HTML5 e CSS3** (DIO):
 
 Códigos das aulas do **curso de HTML** (Codecademy): [`brownbears.html`](../1-intro-html-css/brownbears.html), [`table.html`](../1-intro-html-css/table.html) e [`style-table.css`](../1-intro-html-css/style-table.css)
 
+## 2-projeto-instagram
 
+**Página de login do Instagram:** 
+
+Nesse projeto foi abordado o conceito sobre CSS Flexbox e responsividade, preparando os alunos para as aulas de jogos, nas quais será utilizado o CSS junto ao JavaScript para estilização e posicionamento.
